@@ -11,42 +11,63 @@ function Nav() {
     return (
         <div>
             <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between py-5 bg-transparent bg-opacity-60 backdrop-filter backdrop-blur-md">
-              <div className="flex justify-center w-full">
-                <div className="w-full flex items-center justify-between my_fixed_width">
-                    <span>
-                        <b className="text-lg font-bold">StreakMaster</b>
-                    </span>
+                <div className="flex justify-center w-full">
+                    <div className="w-full flex items-center justify-between my_fixed_width">
+                        <span className="justify-between items-center flex">
+                            <img
+                                className="w-[2rem] rounded-3xl border border-1 border-slate-900"
+                                src="https://streekmastersite.vercel.app/logo.png"
+                            ></img>
+                            <b className="text-lg font-bold ml-5">
+                                StreakMaster
+                            </b>
+                        </span>
 
-                    {/* Mobile menu buttons */}
-                    {!mobileNavOpen ? (
-                        <button
-                            className="bg-transparent rounded-md p-2 md:hidden"
-                            onClick={toggleMobileNav}
-                        >
-                            <i className="fa fa-bars text-lg"></i>
-                        </button>
-                    ) : (
-                        <button
-                            className="bg-transparent rounded-md p-2 md:hidden"
-                            onClick={toggleMobileNav}
-                        >
-                          <i class="fa fa-times text-lg fa-2x" ></i>
-                        </button>
-                    )}
+                        {/* Mobile menu buttons */}
+                        {!mobileNavOpen ? (
+                            <button
+                                className="bg-transparent rounded-md p-2 md:hidden"
+                                onClick={toggleMobileNav}
+                            >
+                                <i className="fa fa-bars text-lg"></i>
+                            </button>
+                        ) : (
+                            <button
+                                className="bg-transparent rounded-md p-2 md:hidden"
+                                onClick={toggleMobileNav}
+                            >
+                                <i class="fa fa-times text-lg fa-2x"></i>
+                            </button>
+                        )}
 
-                    {/* Desktop navigation */}
-                    <div className="hidden md:flex space-x-6">
-                        <Link to="/privacy" className="hover:text-gray-500">
-                            Privacy
-                        </Link>
-                        <Link to="/terms" className="hover:text-gray-500">
-                            Terms
-                        </Link>
-                        <a href="#" className="hover:text-gray-500">
+                        {/* Desktop navigation */}
+                        <div className="hidden md:flex space-x-6">
+                            <a
+                                href="/"
+                                className="rounded-3xl border border-[2px] border-white text-center bg-transparent text-sm font-bold py-2 px-6 text-white my-2"
+                            >
+                                Home
+                            </a>
+                            <Link
+                                to="/privacy"
+                                className="rounded-3xl border border-[2px] border-white text-center bg-transparent text-sm font-bold py-2 px-6 text-white my-2"
+                            >
+                                Privacy
+                            </Link>
+                            <Link
+                                to="/terms"
+                                className="rounded-3xl border border-[2px] border-white text-center bg-transparent text-sm font-bold py-2 px-6 text-white my-2"
+                            >
+                                Terms
+                            </Link>
+                        </div>
+                        <a
+                            href="#"
+                            className="rounded-3xl border border-[2px] border-black text-center bg-white text-sm text-sm font-bold py-2 px-6 text-black my-2 hidden md:flex"
+                        >
                             Get Started
                         </a>
                     </div>
-                </div>
                 </div>
             </nav>
 
@@ -57,12 +78,14 @@ function Nav() {
                     className="bottom-0 fixed left-0 right-0 top-[5.2rem] z-50 bg-transparent bg-opacity-60 backdrop-filter backdrop-blur-md px-8"
                 >
                     <div className="float-right bg-[#fefefe] rounded-3xl py-3 px-6">
-                        <a href="https://google.com"
+                        <a
+                            href="https://google.com"
                             className="block rounded-3xl border border-[2px] border-black text-center bg-white text-sm font-bold py-2 px-6 text-black my-2"
                         >
                             Get Started
                         </a>
-                        <a href="/"
+                        <a
+                            href="/"
                             className="block rounded-3xl border border-[2px] border-black text-center text-sm font-bold py-2 bg-black px-6 text-white my-2"
                         >
                             Home

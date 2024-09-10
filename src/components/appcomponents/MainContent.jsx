@@ -1,5 +1,7 @@
 import React from "react";
 
+import BottonTwo from './BottonTwo';
+
 function MainContent() {
     return (
         <main>
@@ -11,7 +13,7 @@ function MainContent() {
                                 Sleek Design
                             </h3>
                             <p className="text-sm">
-                                Equipped with sleek design, Streek promises top
+                                Equipped with sleek design, StreekMaster promises top
                                 notch user experience
                             </p>
                         </div>
@@ -33,7 +35,7 @@ function MainContent() {
                                 Daily Boosts
                             </h3>
                             <p className="text-sm">
-                                MasterStreek serves boosters to its users daily
+                                StreekMaster serves boosters to its users daily
                                 based on their streek points and level of
                                 achievement
                             </p>
@@ -56,7 +58,7 @@ function MainContent() {
                                 Dark Mode
                             </h3>
                             <p className="text-sm">
-                                MasterStreek is available in dark mode for more
+                                StreekMaster is available in dark mode for more
                                 comfortable display
                             </p>
                         </div>
@@ -83,16 +85,9 @@ function MainContent() {
                             </h2>
                             <p className="text-base my-2">
                                 Below are the available platforms to use
-                                MasterStreek:
+                                StreekMaster:
                             </p>
-                            <div className="flex justify-center items-center">
-                                <a
-                                    href="#"
-                                    className="inline-flex items-center justify-between bg-gray-300 px-5 py-2 rounded-3xl text-[0.78rem] font-bold text-black my-3"
-                                >
-                                    <span>Web App</span>
-                                </a>
-                            </div>
+                            <BottonTwo />
                         </div>
                     </div>
                     <div className="w-[15rem] h-[15rem] py-4 flex text-center items-center justify-center">
