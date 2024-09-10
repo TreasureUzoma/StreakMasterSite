@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #061417;
+    color: #f9f1f7;
+}
+* {
+    font-family: Cabinet Grotesk;
+}
+.my_fixed_width {
+    width: 85%;
+    max-width: 1200px;
+}
+.my_fixed_width_2 {
+    width: 90%;
+    max-width: 900px;
+}
+
+@media (min-width:720px) {
+  .my_fixed_width_2 {
+    width: 40%;
+  }
+}
