@@ -13,7 +13,7 @@ function MainContent() {
                                 Sleek Design
                             </h3>
                             <p className="text-sm">
-                                Equipped with sleek design, StreekMaster promises top
+                                Equipped with sleek design, StreakMaster promises top
                                 notch user experience
                             </p>
                         </div>
@@ -35,8 +35,8 @@ function MainContent() {
                                 Daily Boosts
                             </h3>
                             <p className="text-sm">
-                                StreekMaster serves boosters to its users daily
-                                based on their streek points and level of
+                                StreakMaster serves boosters to its users daily
+                                based on their streak points and level of
                                 achievement
                             </p>
                         </div>
@@ -47,7 +47,7 @@ function MainContent() {
                                 User Authentication
                             </h3>
                             <p className="text-sm">
-                                Get access to your streeks on different devices,
+                                Get access to your streaks on different devices,
                                 fast and secured.
                             </p>
                         </div>
@@ -58,7 +58,7 @@ function MainContent() {
                                 Dark Mode
                             </h3>
                             <p className="text-sm">
-                                StreekMaster is available in dark mode for more
+                                StreakMaster is available in dark mode for more
                                 comfortable display
                             </p>
                         </div>
@@ -85,7 +85,7 @@ function MainContent() {
                             </h2>
                             <p className="text-base my-2">
                                 Below are the available platforms to use
-                                StreekMaster:
+                                StreakMaster:
                             </p>
                             <BottonTwo />
                         </div>
