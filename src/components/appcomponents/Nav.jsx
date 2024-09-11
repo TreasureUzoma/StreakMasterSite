@@ -43,7 +43,7 @@ function Nav() {
                         {/* Desktop navigation */}
                         <div className="hidden md:flex space-x-6">
                             <Link
-                                to="/HomeMain"
+                                to="/"
                                 className="rounded-3xl border border-[2px] border-white text-center bg-transparent text-sm font-bold py-2 px-6 text-white my-2"
                             >
                                 Home
@@ -85,7 +85,7 @@ function Nav() {
                             Get Started
                         </a>
                         <Link
-                            to="/HomeMain"
+                            to="/"
                             className="block rounded-3xl border border-[2px] border-black text-center text-sm font-bold py-2 bg-black px-6 text-white my-2"
                         >
                             Home
