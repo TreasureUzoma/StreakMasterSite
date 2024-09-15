@@ -77,7 +77,7 @@ function MainContent() {
                 </div>
             </div>
             <div className="flex justify-center my-[7rem]">
-                <div className="grid place-items-center grid-cols-1 my-8 gap-[0.2rem] md:gap[4rem] md:grid-cols-2">
+                <div className="grid place-items-center grid-cols-1 my-8 gap-[0.2rem] md:gap[5rem] lg:gap[5.5rem] md:grid-cols-2">
                     <div className="w-[15rem] h-[15rem] py-4 flex text-center items-center justify-center">
                         <div>
                             <h2 className="text-2xl font-bold my-2">
@@ -92,7 +92,7 @@ function MainContent() {
                     </div>
                     <div className="w-[15rem] h-[15rem] py-4 flex text-center items-center justify-center">
                         <div>
-                            <img src="https://streek-app.netlify.app/smartmockups_lndefx112.png" />
+                            <img src="https://streakmastersite.vercel.app/mockup/streakapp.png" />
                         </div>
                     </div>
                 </div>
