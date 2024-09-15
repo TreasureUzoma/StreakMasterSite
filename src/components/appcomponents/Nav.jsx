@@ -62,7 +62,7 @@ function Nav() {
                             </Link>
                         </div>
                         <a
-                            href="#"
+                            href="https://streakmaster.vercel.app/"
                             className="rounded-3xl border border-[2px] border-black text-center bg-white text-sm text-sm font-bold py-2 px-6 text-black my-2 hidden md:flex"
                         >
                             Get Started
@@ -79,7 +79,7 @@ function Nav() {
                 >
                     <div className="float-right bg-[#fefefe] rounded-3xl py-3 px-6">
                         <a
-                            href="https://google.com"
+                            href="https://streakmaster.vercel.app/"
                             className="block rounded-3xl border border-[2px] border-black text-center bg-white text-sm font-bold py-2 px-6 text-black my-2"
                         >
                             Get Started
