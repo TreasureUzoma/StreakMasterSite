@@ -18,8 +18,8 @@ body {
     max-width: 900px;
 }
 
-@media (min-width:720px) {
-  .my_fixed_width_2 {
-    width: 40%;
-  }
+@media (min-width: 720px) {
+    .my_fixed_width_2 {
+        width: 40%;
+    }
 }

@@ -1,12 +1,6 @@
-import React from "react";
-
-import Nav from "./appcomponents/Nav";
-import Footer from "./appcomponents/Footer";
-
 function Terms() {
     return (
-        <div>
-            <Nav />
+        <>
             <div className="text-left mt-[5.4rem] ">
                 <div className="flex justify-center">
                     <div className="my_fixed_width p-2 pb-5 border-b border-slate-800">
@@ -52,8 +46,7 @@ function Terms() {
                     </div>
                 </div>
             </div>
-            <Footer />
-        </div>
+        </>
     );
 }
 

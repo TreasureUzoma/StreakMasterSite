@@ -1,19 +1,20 @@
+import HomeMain from "./pages/HomeMain";
+import Terms from "./pages/Terms";
+import Privacy from "./pages/Privacy";
+import Nav from "./components/Nav";
+import Footer from "./components/Footer";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
-import HomeMain from "./components/HomeMain";
-import Terms from "./components/Terms";
-import Privacy from "./components/Privacy";
-
-function App() {
-    return (
-        <Router>
-            <Routes>
-                <Route path="/" element={<HomeMain />} />
-                <Route path="/privacy" element={<Privacy />} />
-                <Route path="/terms" element={<Terms />} />
-            </Routes>
-        </Router>
-    );
-}
+const App = () => (
+    <Router>
+        <Nav />
+        <Routes>
+            <Route path="/" element={<HomeMain />} />
+            <Route path="/privacy" element={<Privacy />} />
+            <Route path="/terms" element={<Terms />} />
+        </Routes>
+        <Footer />
+    </Router>
+);
 
 export default App;
