@@ -11,7 +11,7 @@ function Footer() {
                 <a
                     target="_blank"
                     className="font-bold text-white"
-                    href="https://treasureuzoma.brimble.app"
+                    href="https://treasureuzoma.netlify.app"
                 >
                     Treasure Uzoma
                 </a>
